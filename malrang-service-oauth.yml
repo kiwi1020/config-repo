@@ -1,2 +1,9 @@
-polar:
-  greeting: "Test"
+malrang-service:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: "{cipher}c563283523d4390c47b790ed173541dab1c4ef825111ba0d14ce8cbc2a01e4219c071693cd779fbd0b4a3e86001f97d93b598359835604eb36d60edcc695c7c424f11de4ed6a8caa4a5e9e6d2de5069a2c68cedb3ede3758405dc8ce5926eb74"
+            client-secret: "{cipher}5728d7e473cde86af078027ab8b48e5c549cc049e401bcb5d7c77b8bea0bda1523eb1e9a66bbb4afcb0fc8c8353acc673b14fffffbcd7de477c09d4acfbb145b" 
+            
