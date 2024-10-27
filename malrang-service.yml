@@ -1,13 +1,13 @@
 malrang-service:
   datasource:
-    url: "{cipher}d81860f9b7ac4f0c02f6a89322b5cfb0b4062d3e8dbb0c1a23dafbdf1745fb43"
+    url: jdbc:mysql://localhost:3306/test_db?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
     username: "{cipher}a9bf1529714899c647884494e06d809ba0b07870e2953e6dde851410239102b3"
     password: "{cipher}a2044b616c581c14551b8944f9940a37fc4950fc640c1349a57963029b15b60d"
   data:
     redis:
       port: 6379
       host: 127.0.0.1
-      password: 1248
+      password: "{cipher}11631229d391faf99af4977bc3b91815c52f97df31f203d27d5ebd88b2d7335a"
   jwt:
-    issuer: yooyoo9196@gmail.com
-    secret_key: abcdefg
+    issuer: "{cipher}157cb0ee13d05315dfbcd1e884720c02f13cb22b0db5c815a4223a7626689d553c652b2359d4045b135ccfcd3cf1b283"
+    secret_key: "{cipher}14e9fb3669f8c12b1883c4f502c6f5d4f2dcac3dc833785c61dc7887791974e8"
