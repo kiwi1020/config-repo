@@ -1,8 +1,8 @@
 malrang-service:
   datasource:
-    url: {cipher}d81860f9b7ac4f0c02f6a89322b5cfb0b4062d3e8dbb0c1a23dafbdf1745fb43
-    username: {cipher}a9bf1529714899c647884494e06d809ba0b07870e2953e6dde851410239102b3
-    password: {cipher}a2044b616c581c14551b8944f9940a37fc4950fc640c1349a57963029b15b60d
+    url: "{cipher}d81860f9b7ac4f0c02f6a89322b5cfb0b4062d3e8dbb0c1a23dafbdf1745fb43"
+    username: "{cipher}a9bf1529714899c647884494e06d809ba0b07870e2953e6dde851410239102b3"
+    password: "{cipher}a2044b616c581c14551b8944f9940a37fc4950fc640c1349a57963029b15b60d"
   data:
     redis:
       port: 6379
