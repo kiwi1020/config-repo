@@ -1,12 +1,12 @@
 malrang-service:
   datasource:
-    url: jdbc:mysql://localhost:3306/test_db?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    url: "{cipher}ed71868098ad8117590757acd1e750dcd35109929bb599ea1ba13031eed64859e5edbecb50eac6382f43479688c71838677ccb09738be7131407a499ba5a0bb84135638d0dd1dec22dbb96737cbcaf3bcf7565ea4e334a35291677dbede5eb0af12c575cdf53e257b5224810d80195b85251d9838b2f54774dc7dc1c371f6c61d41d4805eff79ecc31223cd9d5beadbc8ef327209e60e8412ef7fd3407d5a6aeb6e24f4f5e118bb6f951874140cf1180b2b433691c90b9404b1eb3a7b5bdf69c"
     username: "{cipher}a9bf1529714899c647884494e06d809ba0b07870e2953e6dde851410239102b3"
-    password: "{cipher}a2044b616c581c14551b8944f9940a37fc4950fc640c1349a57963029b15b60d"
+    password: "{cipher}5e56fcea71b59027506e359604c0374f1bc66aa5367f7c7a0190f946dfdaaa7c"
   data:
     redis:
       port: 6379
-      host: 127.0.0.1
+      host: "{cipher}d86cc1fb9923ed351f9292b235c52f91dfd747db44435804423ad1118368bee9"
       password: "{cipher}11631229d391faf99af4977bc3b91815c52f97df31f203d27d5ebd88b2d7335a"
   jwt:
     issuer: "{cipher}157cb0ee13d05315dfbcd1e884720c02f13cb22b0db5c815a4223a7626689d553c652b2359d4045b135ccfcd3cf1b283"
