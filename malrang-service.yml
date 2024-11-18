@@ -6,7 +6,7 @@ malrang-service:
   data:
     redis:
       port: 6379
-      host: 54.180.160.232
+      host: 13.125.158.167
       password: "{cipher}11631229d391faf99af4977bc3b91815c52f97df31f203d27d5ebd88b2d7335a"
   jwt:
     issuer: "{cipher}157cb0ee13d05315dfbcd1e884720c02f13cb22b0db5c815a4223a7626689d553c652b2359d4045b135ccfcd3cf1b283"
